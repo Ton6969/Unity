@@ -184,3 +184,9 @@ Received Import Request.
   path: Assets/MapMagic/Demo/LandTextures/CliffDark.tif
   artifactKey: Guid(f0eabb916c8c83c48be3498e5b1bc768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MapMagic/Demo/LandTextures/CliffDark.tif using Guid(f0eabb916c8c83c48be3498e5b1bc768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f0dfa510ceef4fbc97c30a2bbb6913') in 0.441983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1803.010555 seconds.
+  path: Assets/MapMagic/Demo/Graphs/SimpleGraph.asset
+  artifactKey: Guid(fa6422632cb7b1f4ab4fce1030150e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Graphs/SimpleGraph.asset using Guid(fa6422632cb7b1f4ab4fce1030150e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16d94354e6a09adc12c901373ddd1c7') in 0.666205 seconds 

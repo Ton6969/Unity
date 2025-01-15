@@ -346,3 +346,33 @@ Received Import Request.
   path: Assets/MapMagic/Demo/Light/Sphere.mat
   artifactKey: Guid(17ad4806c8a12854cb051d066095aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MapMagic/Demo/Light/Sphere.mat using Guid(17ad4806c8a12854cb051d066095aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479c5a7b79cfed5b63bac09abb1b7984') in 0.152833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1786.981205 seconds.
+  path: Assets/Scenes/Lesson 2-3.unity
+  artifactKey: Guid(9589451cc138d4e00a2da0a6c2198153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Lesson 2-3.unity using Guid(9589451cc138d4e00a2da0a6c2198153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186bce721f4ee3693ef093a60889f7e8') in 0.008199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.501368 seconds.
+  path: Assets/MapMagic/Demo/Graphs/MinuteIsland.asset
+  artifactKey: Guid(dda3a85217d6dc14dbebacdd98571fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Graphs/MinuteIsland.asset using Guid(dda3a85217d6dc14dbebacdd98571fdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c467197912fcb84667675348a4a71862') in 0.323742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 500.255306 seconds.
+  path: Assets/MapMagic/Demo/MinuteIsland.unity
+  artifactKey: Guid(67076575d24bac343b201a761e1cc1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/MinuteIsland.unity using Guid(67076575d24bac343b201a761e1cc1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80c8684710536cb0112204397a14d0d') in 0.006287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.311348 seconds.
+  path: Assets/MapMagic/Demo/Textures
+  artifactKey: Guid(055c0f7155a77a74e8c33c8ef9c997cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Textures using Guid(055c0f7155a77a74e8c33c8ef9c997cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fedf32e59157168d4d5d8f619182db') in 0.001477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.091974 seconds.
+  path: Assets/MapMagic/Demo/Tutorial.unity
+  artifactKey: Guid(0db8cb5e6a8383441a7af65407762310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Tutorial.unity using Guid(0db8cb5e6a8383441a7af65407762310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b630362a7c2f4e6f3627e97e29f87d') in 0.001546 seconds 
