@@ -1,0 +1,348 @@
+Unity Editor version:    2021.3.25f1 (68ef2c4f8861)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62507
+Successfully changed project path to: /Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main
+/Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8773042752] Host "[IP] 10.224.93.129 [Port] 0 [Flags] 2 [Guid] 3961903677 [EditorId] 3961903677 [Version] 1048832 [Id] OSXEditor(0,Tonys-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8773042752] Host "[IP] 10.224.93.129 [Port] 0 [Flags] 2 [Guid] 3961903677 [EditorId] 3961903677 [Version] 1048832 [Id] OSXEditor(0,Tonys-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 56.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56233
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001384 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 34.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1635ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1240ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (859ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (583ms)
+				ProcessInitializeOnLoadMethodAttributes (216ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2102ms)
+		BeginReloadAssembly (399ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (68ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1401ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (872ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (619ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 1.06 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1583 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (12.4 MB). Loaded Objects now: 2061.
+Memory consumption went from 105.1 MB to 92.7 MB.
+Total: 7.147500 ms (FindLiveObjects: 0.137000 ms CreateObjectMapping: 0.035041 ms MarkObjects: 5.181792 ms  DeleteObjects: 1.792459 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.357 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2359ms)
+		BeginReloadAssembly (398ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (47ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (102ms)
+		EndReloadAssembly (1725ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1093ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (787ms)
+				ProcessInitializeOnLoadMethodAttributes (177ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (12.3 MB). Loaded Objects now: 2064.
+Memory consumption went from 103.2 MB to 90.9 MB.
+Total: 7.175208 ms (FindLiveObjects: 0.509084 ms CreateObjectMapping: 0.156875 ms MarkObjects: 4.953667 ms  DeleteObjects: 1.553625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41520.130051 seconds.
+  path: Assets/MapMagic/Demo
+  artifactKey: Guid(16763cb56e91dfc42be1799312663741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo using Guid(16763cb56e91dfc42be1799312663741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27d7e2feb5832e17fefb030c57d81a') in 0.030374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.595383 seconds.
+  path: Assets/MapMagic/Demo/Grass
+  artifactKey: Guid(e0f185b51f8053a4c990a6a6c1272f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Grass using Guid(e0f185b51f8053a4c990a6a6c1272f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1530d757f8a72455d626acf96ebeba8') in 0.003020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.127455 seconds.
+  path: Assets/MapMagic/Demo/MinuteIsland 2.unity
+  artifactKey: Guid(1789c205f9d82430d824761b21c3affc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/MinuteIsland 2.unity using Guid(1789c205f9d82430d824761b21c3affc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f7fd06dcc88432dbd3e1632ee782d8') in 0.008424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.226330 seconds.
+  path: Assets/MapMagic/Demo/TutorialHDRP.unity
+  artifactKey: Guid(17dd0fa30022b7244a8774b65f3b2944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/TutorialHDRP.unity using Guid(17dd0fa30022b7244a8774b65f3b2944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149be146028686dd347a5e1b5a92b326') in 0.009236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.991186 seconds.
+  path: Assets/MapMagic/Demo/Materials
+  artifactKey: Guid(164b3fd50b1959342a54c1c7aca5b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Materials using Guid(164b3fd50b1959342a54c1c7aca5b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bde74b975330a7d2119e80470b62c7') in 0.002295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056804 seconds.
+  path: Assets/MapMagic/Demo/Materials/SkyBox1940.mat
+  artifactKey: Guid(01de108acfa1fb941993ffb935ac80c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Materials/SkyBox1940.mat using Guid(01de108acfa1fb941993ffb935ac80c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cb54266fb218fda342c782b16a6b09') in 0.702383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/MapMagic/Demo/Materials/TerrainURP.mat
+  artifactKey: Guid(34ad7d7fa0a5a6e48aaec1574ed7aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Materials/TerrainURP.mat using Guid(34ad7d7fa0a5a6e48aaec1574ed7aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a812793978acd861b9adc410a71f5cf8') in 0.076077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/MapMagic/Demo/Materials/TerrainHDRP.mat
+  artifactKey: Guid(792016030bae20d4dada2f09b5749a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Materials/TerrainHDRP.mat using Guid(792016030bae20d4dada2f09b5749a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf984aeb98979ca1fa1938409deb23c') in 0.008334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.156361 seconds.
+  path: Assets/MapMagic/Demo/Textures/Skybox.tif
+  artifactKey: Guid(a87483b0fba3c7545991a9659847d537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Textures/Skybox.tif using Guid(a87483b0fba3c7545991a9659847d537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fb44d622d55d27703689808eb7e6e4') in 0.839426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.889583 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/CliffBright.tif
+  artifactKey: Guid(418621e72fed41a47a8ee91391b8239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/CliffBright.tif using Guid(418621e72fed41a47a8ee91391b8239d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b5af33cfde2361f6f60bc03213514c') in 0.049589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/Gravel.tif
+  artifactKey: Guid(9575eeb174958fa46bcf52b136e0e2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/Gravel.tif using Guid(9575eeb174958fa46bcf52b136e0e2ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a3dd29d235096b3423a44fc90b67ae') in 0.017413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/GrassYellow.tif
+  artifactKey: Guid(534237b9c0bf2434caa478ad21087100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/GrassYellow.tif using Guid(534237b9c0bf2434caa478ad21087100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fdaf76f909718f9d6bc76fc24e13b9c') in 0.017207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/GrassGreen.tif
+  artifactKey: Guid(e63c7e66aca47a244b9e4a24948d0a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/GrassGreen.tif using Guid(e63c7e66aca47a244b9e4a24948d0a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235869ec9d9573418cafa6c23b7c3515') in 0.009314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001540 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/Gravel_nrm.tif
+  artifactKey: Guid(ac87f35179e144b4286a25d730837ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/Gravel_nrm.tif using Guid(ac87f35179e144b4286a25d730837ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fad09a7922e18798973ed8c771dd084') in 0.065968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/CliffDark_nrm.tif
+  artifactKey: Guid(25942b7d55f66f34b96829c304c0d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/CliffDark_nrm.tif using Guid(25942b7d55f66f34b96829c304c0d92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c8d6afd2782d6aaeebf7a9fefa2df8') in 0.014330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/MapMagic/Demo/LandTextures/GrassGreen_nrm.tif
+  artifactKey: Guid(7f9dbb35b6a417044bde86476b626336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/LandTextures/GrassGreen_nrm.tif using Guid(7f9dbb35b6a417044bde86476b626336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33f58ec4c28c31bcd6e5710c07c15aa') in 0.010582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.550874 seconds.
+  path: Assets/MapMagic/Demo/Light/Sphere.mat
+  artifactKey: Guid(17ad4806c8a12854cb051d066095aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Light/Sphere.mat using Guid(17ad4806c8a12854cb051d066095aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479c5a7b79cfed5b63bac09abb1b7984') in 0.152833 seconds 

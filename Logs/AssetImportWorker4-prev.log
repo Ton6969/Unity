@@ -1,0 +1,338 @@
+Unity Editor version:    2021.3.25f1 (68ef2c4f8861)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4.1 (Build 23E224)
+Darwin version:          23.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58966
+Successfully changed project path to: /Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main
+/Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8733438528] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 107174632 [EditorId] 107174632 [Version] 1048832 [Id] OSXEditor(0,Tonys-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8733438528] Host "[IP] 192.168.1.10 [Port] 0 [Flags] 2 [Guid] 107174632 [EditorId] 107174632 [Version] 1048832 [Id] OSXEditor(0,Tonys-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 53.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56887
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001239 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 24.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1569ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1162ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (841ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (25ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (635ms)
+				ProcessInitializeOnLoadMethodAttributes (158ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1844ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1345ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (821ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (651ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.96 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (Unknown). Loaded Objects now: 1853.
+Memory consumption went from 73.2 MB to 73.3 MB.
+Total: 20.611292 ms (FindLiveObjects: 0.848708 ms CreateObjectMapping: 0.220167 ms MarkObjects: 18.358000 ms  DeleteObjects: 1.183166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 652700.508836 seconds.
+  path: Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.png
+  artifactKey: Guid(32cef6a96e79c904387df9d92260fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/Panoramics/FS017/FS017_Night.png using Guid(32cef6a96e79c904387df9d92260fabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1514699302e43f6e59da52d26a3e50') in 0.671227 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+MAPMAGIC2 Enabled
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MapMagic.GUI.SettingsWindow:ToggleKeyword (bool,string,string&) (at Assets/MapMagic/Core/Plugins/SettingsWindow.cs:243)
+MapMagic.GUI.SettingsWindow:InitializeSettings () (at Assets/MapMagic/Core/Plugins/SettingsWindow.cs:72)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/MapMagic/Core/Plugins/SettingsWindow.cs Line: 243)
+
+MM_NATIVE Enabled
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MapMagic.GUI.SettingsWindow:ToggleKeyword (bool,string,string&) (at Assets/MapMagic/Core/Plugins/SettingsWindow.cs:243)
+MapMagic.GUI.SettingsWindow:InitializeSettings () (at Assets/MapMagic/Core/Plugins/SettingsWindow.cs:75)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Assets/MapMagic/Core/Plugins/SettingsWindow.cs Line: 243)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  7.179 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7183ms)
+		BeginReloadAssembly (1031ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (83ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (305ms)
+		EndReloadAssembly (5591ms)
+			LoadAssemblies (593ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (561ms)
+			ReleaseScriptCaches (18ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (4138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (76ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (305ms)
+				ProcessInitializeOnLoadAttributes (3263ms)
+				ProcessInitializeOnLoadMethodAttributes (481ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Shader 'MapMagic/TerrainPreview': dependency 'AddPassShader' shader 'MapMagic/TerrainPreviewEmpty' not found
+Shader 'MapMagic/TerrainPreview': dependency 'AddPassShader' shader 'MapMagic/TerrainPreviewEmpty' not found
+Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
+Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (19.7 MB). Loaded Objects now: 2043.
+Memory consumption went from 107.2 MB to 87.4 MB.
+Total: 14.046375 ms (FindLiveObjects: 0.298208 ms CreateObjectMapping: 0.361416 ms MarkObjects: 10.708792 ms  DeleteObjects: 2.674333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 355.193613 seconds.
+  path: Assets/MapMagic/Compatibility
+  artifactKey: Guid(e4785f49b607daf4db42eaab604f3c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Compatibility using Guid(e4785f49b607daf4db42eaab604f3c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debaac329d537df8a5d8192d37963211') in 0.346797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.938480 seconds.
+  path: Assets/MapMagic/Terrains
+  artifactKey: Guid(1550bd822f308ec46ab135317b39644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Terrains using Guid(1550bd822f308ec46ab135317b39644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585d083436f993b1c79740e761b28d52') in 0.004000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034824 seconds.
+  path: Assets/MapMagic/Terrains/MapMagic.asmref
+  artifactKey: Guid(fde0cd98306149a4c9d859444099717b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Terrains/MapMagic.asmref using Guid(fde0cd98306149a4c9d859444099717b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1319c532c0a5793b1f2903e6668dbcf') in 0.912156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.419784 seconds.
+  path: Assets/MapMagic/Core/MapMagic.asmdef
+  artifactKey: Guid(10c2c8b9f42fe8c43bbe8dae22545979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Core/MapMagic.asmdef using Guid(10c2c8b9f42fe8c43bbe8dae22545979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee7f84a91086ee189744bdd129a290a') in 0.090326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.353050 seconds.
+  path: Assets/MapMagic/Demo/Compatibility
+  artifactKey: Guid(ccc60fdadd79b7c44b749bddab31b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Compatibility using Guid(ccc60fdadd79b7c44b749bddab31b5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a6a1d35058cd6413ce8bf201780a6d') in 0.001606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.388459 seconds.
+  path: Assets/MapMagic/Demo/TutorialURP.unity
+  artifactKey: Guid(a6ccfec92389974439e5e0f3730bbcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/TutorialURP.unity using Guid(a6ccfec92389974439e5e0f3730bbcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207e2eefe51ea6a216a63c752e00dc4d') in 0.002188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.563180 seconds.
+  path: Assets/MapMagic/Demo/MinuteIsland.unity
+  artifactKey: Guid(67076575d24bac343b201a761e1cc1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/MinuteIsland.unity using Guid(67076575d24bac343b201a761e1cc1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b0317d0c7ea9c36fb2f7e95e1d5361') in 0.045164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.309922 seconds.
+  path: Assets/MapMagic/Demo/Light/AS Screens Cam Lights.prefab
+  artifactKey: Guid(19083a07726a7a644b7b4471c8d0e2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Light/AS Screens Cam Lights.prefab using Guid(19083a07726a7a644b7b4471c8d0e2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7387a620d24023d7bf833d3df689f7dc') in 0.997581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001392 seconds.
+  path: Assets/MapMagic/Demo/Light/Tutorial Lights.prefab
+  artifactKey: Guid(bada83ba00a79cf4b87ac2989ac80e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Light/Tutorial Lights.prefab using Guid(bada83ba00a79cf4b87ac2989ac80e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1033a6d301ada2b45afb1480ce828ed3') in 0.013526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/MapMagic/Demo/Light/Light.prefab
+  artifactKey: Guid(54754f104deed324cbc5e1847f6762c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Light/Light.prefab using Guid(54754f104deed324cbc5e1847f6762c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc01edcd92fd9ae5e5961fcda8700ef4') in 0.595575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/MapMagic/Demo/Grass/Meshes/Nettle.FBX
+  artifactKey: Guid(19969c80ad2e2124085be88e62c6d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Grass/Meshes/Nettle.FBX using Guid(19969c80ad2e2124085be88e62c6d7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8aa86fd31437bb25ccf586d38a90dd') in 1.367705 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
