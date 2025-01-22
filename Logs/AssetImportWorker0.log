@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62507
+53983
 Successfully changed project path to: /Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main
 /Users/tonyzan/Desktop/Unity Projects/cm2-unity1-module2-template-main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/tonyzan/Desktop/Unity Projects/cm2-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8710779456] Host "[IP] 10.224.93.129 [Port] 0 [Flags] 2 [Guid] 515439956 [EditorId] 515439956 [Version] 1048832 [Id] OSXEditor(0,Tonys-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8700011072] Host "[IP] 10.224.93.129 [Port] 0 [Flags] 2 [Guid] 658299918 [EditorId] 658299918 [Version] 1048832 [Id] OSXEditor(0,Tonys-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8710779456] Host "[IP] 10.224.93.129 [Port] 0 [Flags] 2 [Guid] 515439956 [EditorId] 515439956 [Version] 1048832 [Id] OSXEditor(0,Tonys-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8700011072] Host "[IP] 10.224.93.129 [Port] 0 [Flags] 2 [Guid] 658299918 [EditorId] 658299918 [Version] 1048832 [Id] OSXEditor(0,Tonys-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 80.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.25f1 (68ef2c4f8861)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,73 +73,73 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56027
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56935
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001375 seconds.
+Registered in 0.001377 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 39.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 32.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.517 seconds
+- Completed reload, in  1.560 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1519ms)
-		BeginReloadAssembly (251ms)
+	ReloadAssembly (1562ms)
+		BeginReloadAssembly (318ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1067ms)
-			LoadAssemblies (249ms)
+			CreateAndSetChildDomain (7ms)
+		EndReloadAssembly (1047ms)
+			LoadAssemblies (311ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (129ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (728ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (736ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (40ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (484ms)
-				ProcessInitializeOnLoadMethodAttributes (175ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (525ms)
+				ProcessInitializeOnLoadMethodAttributes (154ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005018 seconds.
+Registered in 0.002941 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.059 seconds
+- Completed reload, in  1.925 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2061ms)
-		BeginReloadAssembly (258ms)
+	ReloadAssembly (1927ms)
+		BeginReloadAssembly (241ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
+			DisableScriptedObjects (34ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1556ms)
-			LoadAssemblies (146ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1455ms)
+			LoadAssemblies (145ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
+			SetupTypeCache (222ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1008ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (921ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (717ms)
-				ProcessInitializeOnLoadMethodAttributes (174ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (671ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
@@ -160,13 +160,13 @@ Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/U
 Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
 Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.69 seconds
-Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.90 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1583 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (12.4 MB). Loaded Objects now: 2061.
-Memory consumption went from 105.1 MB to 92.7 MB.
-Total: 26.588875 ms (FindLiveObjects: 0.373583 ms CreateObjectMapping: 0.077917 ms MarkObjects: 9.178750 ms  DeleteObjects: 16.956459 ms)
+Unloading 24 unused Assets / (12.3 MB). Loaded Objects now: 2064.
+Memory consumption went from 105.7 MB to 93.4 MB.
+Total: 14.773042 ms (FindLiveObjects: 0.295708 ms CreateObjectMapping: 0.050667 ms MarkObjects: 11.966959 ms  DeleteObjects: 2.458417 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -180,226 +180,58 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 41228.482512 seconds.
-  path: Assets/Solutions/Lesson 2-5.unity
-  artifactKey: Guid(eab3c1497eda2d24aa958b129f0f567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Solutions/Lesson 2-5.unity using Guid(eab3c1497eda2d24aa958b129f0f567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e6f52da1eb1ec39a5c684ccbf6773c') in 0.048360 seconds 
+  Time since last request: 398994.403444 seconds.
+  path: Assets/Prefab/player.prefab
+  artifactKey: Guid(62b16b3de3147494a9548ad3266e9de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/player.prefab using Guid(62b16b3de3147494a9548ad3266e9de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc2293145645f6676d437cbf93bdaee') in 1.342255 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.768024 seconds.
-  path: Assets/Solutions/Lesson 2-3.unity
-  artifactKey: Guid(186effeda77cb574b8b21f6be2f6ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Solutions/Lesson 2-3.unity using Guid(186effeda77cb574b8b21f6be2f6ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbc33a0149cd4bf69d651fcd944f930') in 0.002141 seconds 
+  Time since last request: 29.061671 seconds.
+  path: Assets/Prefab/dino 1.prefab
+  artifactKey: Guid(dc53ff34e3a3244968b4ddae174d5351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/dino 1.prefab using Guid(dc53ff34e3a3244968b4ddae174d5351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd1a88946174bb7044152a1f89cf2cc') in 0.160983 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.405426 seconds.
-  path: Assets/Scenes/Lesson 2-5.unity
-  artifactKey: Guid(b0b1f4baa9c384382b81c35c4d9f0a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lesson 2-5.unity using Guid(b0b1f4baa9c384382b81c35c4d9f0a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524603804c557281a957f8c29c710617') in 0.003298 seconds 
+  Time since last request: 40.834855 seconds.
+  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Demo/Materials/GradientTint.mat
+  artifactKey: Guid(d28d3fd2b1f74124a96c8591c429e67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Demo/Materials/GradientTint.mat using Guid(d28d3fd2b1f74124a96c8591c429e67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8752a236fce281df3de805fc84ea8b9') in 0.264937 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.770713 seconds.
-  path: Assets/Scenes/Mini-Project 1.unity
-  artifactKey: Guid(d3f1b3746baf04c31b43dabf426ef3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mini-Project 1.unity using Guid(d3f1b3746baf04c31b43dabf426ef3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d826f94c9df6f2f2aa58843b8bd1bba') in 0.002412 seconds 
+  Time since last request: 0.000159 seconds.
+  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusCornea.mat
+  artifactKey: Guid(7dc4a2e23af8798459a26ca3abc78fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusCornea.mat using Guid(7dc4a2e23af8798459a26ca3abc78fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa28a5b6a0ac1f0578075dc5f912bade') in 0.209291 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.711362 seconds.
-  path: Assets/Scenes/Mini-Project-2.unity
-  artifactKey: Guid(43fca621cabb14378ae7c6a1f0ec3937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mini-Project-2.unity using Guid(43fca621cabb14378ae7c6a1f0ec3937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8953bd2f1c556400e48982338f422112') in 0.001416 seconds 
+  Time since last request: 0.000042 seconds.
+  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyB.mat
+  artifactKey: Guid(86139fe6f0366984492686819d9b18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyB.mat using Guid(86139fe6f0366984492686819d9b18c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a13d7c87f6cba34b7a629741b2a254') in 0.209218 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.006216 seconds.
-  path: Assets/Scenes/Lesson 2-3.unity
-  artifactKey: Guid(9589451cc138d4e00a2da0a6c2198153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Lesson 2-3.unity using Guid(9589451cc138d4e00a2da0a6c2198153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017e29ee299fb68931deb7e17576b72c') in 0.001656 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyA.mat
+  artifactKey: Guid(003f825518bd40e40bcffdaeb15ac36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyA.mat using Guid(003f825518bd40e40bcffdaeb15ac36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a8b1af8eeabd7aa466cf8cc5c6d83f') in 0.019112 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.365072 seconds.
-  path: Assets/Solutions/Materials
-  artifactKey: Guid(6367f3d50ef05cd4f94a8de56f8a140a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Solutions/Materials using Guid(6367f3d50ef05cd4f94a8de56f8a140a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7461b264ba9c3e41eca98780c6d6b94') in 0.003278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.383144 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Prefabs/24K/Pachycephalasaurus_24K.prefab
-  artifactKey: Guid(7dd31636c6b446842a29a909d4707742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Prefabs/24K/Pachycephalasaurus_24K.prefab using Guid(7dd31636c6b446842a29a909d4707742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b854786068c911526025bab7a2cb14a') in 2.552924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Models/5K/Raptor_Animated_FBX_5K.fbx
-  artifactKey: Guid(6bcc76aebcc27f641a1ba39f7e8e5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Models/5K/Raptor_Animated_FBX_5K.fbx using Guid(6bcc76aebcc27f641a1ba39f7e8e5fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401976080e69a350254eeaf7060da57f') in 0.741806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000593 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/PBR/LODG/Raptor_Animated_LODG_Blue.prefab
-  artifactKey: Guid(4a77ad79e8a41e04180000ab3335a9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/PBR/LODG/Raptor_Animated_LODG_Blue.prefab using Guid(4a77ad79e8a41e04180000ab3335a9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5185919a617506cfbb588e4bd3488ba3') in 0.061733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Models/LODG/Stegasaurus_LODG.fbx
-  artifactKey: Guid(2baeba3921258aa4fbd7b6c1df830968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Models/LODG/Stegasaurus_LODG.fbx using Guid(2baeba3921258aa4fbd7b6c1df830968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1241e2ed60f2e70be3b5536d5b6d51ad') in 0.118038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Fantasy Skybox FREE/Cubemaps/Classic/Materials/FS000_Day_01.mat
-  artifactKey: Guid(18ab32d79df094c1a85fcdd29298b3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/Cubemaps/Classic/Materials/FS000_Day_01.mat using Guid(18ab32d79df094c1a85fcdd29298b3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8b0239aa42e281cb1f2feba9e409a2') in 0.092744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Green.prefab
-  artifactKey: Guid(329c55f4b62b42746b94760afab107bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Green.prefab using Guid(329c55f4b62b42746b94760afab107bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf517125405a3024dac0f0387e8c36ee') in 0.745572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Blue.prefab
-  artifactKey: Guid(56ac0765924ce6043b225373d6a47c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Blue.prefab using Guid(56ac0765924ce6043b225373d6a47c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ba405c73597f9a3999316e06f0acf9') in 0.038499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Yellow.prefab
-  artifactKey: Guid(ea7223548caf1984193a4970bcc4317b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Yellow.prefab using Guid(ea7223548caf1984193a4970bcc4317b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a781adf4e8c8dcb31a0aefc76ff7b01') in 0.028859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Purple.prefab
-  artifactKey: Guid(12a2e8299180b0047809185df8adbf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Purple.prefab using Guid(12a2e8299180b0047809185df8adbf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6cadca9cc696835dcb647a7720a8ec') in 0.028520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Prefabs/PBR/Pachycephalasaurus_SandFemale.prefab
-  artifactKey: Guid(ddf65a445cb940a40a98c8bac0e8cb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Prefabs/PBR/Pachycephalasaurus_SandFemale.prefab using Guid(ddf65a445cb940a40a98c8bac0e8cb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292477a39dfc430b4ff993b1b0f0c292') in 0.034655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/PBR/15K/PBR_Velociraptor_Orange.prefab
-  artifactKey: Guid(67e00b0ea633db443add4eba34618762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/PBR/15K/PBR_Velociraptor_Orange.prefab using Guid(67e00b0ea633db443add4eba34618762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7466301bd066bf11ca1e49f71aa9498c') in 0.032679 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/Mobile/5K/Raptor_Animated_FBX_5K_Green.prefab
-  artifactKey: Guid(cf868f43357fcfd428caa3e5eacbf33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/Mobile/5K/Raptor_Animated_FBX_5K_Green.prefab using Guid(cf868f43357fcfd428caa3e5eacbf33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400ecf13069c2fadf8e9adb756fefece') in 0.186415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/PBR/LODG/Raptor_Animated_LODG_SandFemale.prefab
-  artifactKey: Guid(04a1884dd990f754eb9cdacecd1738ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/PBR/LODG/Raptor_Animated_LODG_SandFemale.prefab using Guid(04a1884dd990f754eb9cdacecd1738ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c026120309cc505599e45e518f9e99d') in 0.037070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Blue2.prefab
-  artifactKey: Guid(b5a8122a2373e2140a59b2d8df6aad07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Blue2.prefab using Guid(b5a8122a2373e2140a59b2d8df6aad07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22dcfe556a5c3a78a01d0bd46288aea') in 0.034058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/PBR/15K/PBR_Velociraptor_Green.prefab
-  artifactKey: Guid(b4281f7b16533374cbb8e4ce856709bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/PBR/15K/PBR_Velociraptor_Green.prefab using Guid(b4281f7b16533374cbb8e4ce856709bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee06b167fea0b224ce5a4fd7597e6e8d') in 0.032816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Grey.prefab
-  artifactKey: Guid(7901a67c44755714686792b6e0deeebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRStegasaurus/Prefabs/LODG/Stegasaurus_Grey.prefab using Guid(7901a67c44755714686792b6e0deeebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcb0a48119ea2c6c7cb92e8c5534ba2') in 0.031087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/Mobile/5K/Raptor_Animated_FBX_5K_SandFemale.prefab
-  artifactKey: Guid(48a08f2754b114842976248eb19cc380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/Mobile/5K/Raptor_Animated_FBX_5K_SandFemale.prefab using Guid(48a08f2754b114842976248eb19cc380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29b436893bac8e59579268cb129b840') in 0.023905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/Mobile/5K/Raptor_Animated_FBX_5K_Sandmale.prefab
-  artifactKey: Guid(1489e285bd7f7b149af4e9737cd26a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRVelociraptor/Prefabs/Mobile/5K/Raptor_Animated_FBX_5K_Sandmale.prefab using Guid(1489e285bd7f7b149af4e9737cd26a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff3d7f3aceedaa7493db68a96f57298') in 0.022605 seconds 
+  Time since last request: 0.000038 seconds.
+  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyE.mat
+  artifactKey: Guid(6a231a23fd7a73a41a91bc46759014f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyE.mat using Guid(6a231a23fd7a73a41a91bc46759014f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e83641d8f52e54585fd8d6507e1faa') in 0.023063 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000093 seconds.
-  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Models/LODG/Pachycephalasaurus.fbx
-  artifactKey: Guid(26a5ea023529de54e9b69e178a00178f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Models/LODG/Pachycephalasaurus.fbx using Guid(26a5ea023529de54e9b69e178a00178f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9414149d477340526667a5a1975fb3') in 0.133966 seconds 
+  path: Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyD.mat
+  artifactKey: Guid(9acef97affffe9448a84281888317a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Skybox FREE/FerociousIndustries/PBRDinosaurs/PBRPachycephalasaurus/Materials/PBR/PachycephalasaurusBodyD.mat using Guid(9acef97affffe9448a84281888317a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fd34389c5a1c32ba3ad4712a62c329') in 0.030529 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000744 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.426 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2428ms)
-		BeginReloadAssembly (432ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (45ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (152ms)
-		EndReloadAssembly (1765ms)
-			LoadAssemblies (192ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (1111ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (724ms)
-				ProcessInitializeOnLoadMethodAttributes (268ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Shader 'MapMagic/TerrainPreviewURP': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
-Shader 'MapMagic/TerrainPreviewURP': dependency 'AddPassShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)' not found
-Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
-Shader 'MapMagic/TerrainPreviewURP': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
-Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapShader' shader 'Hidden/HDRP/TerrainLit_Basemap' not found
-Shader 'MapMagic/TerrainPreviewHDRP': dependency 'BaseMapGenShader' shader 'Hidden/HDRP/TerrainLit_BasemapGen' not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1546 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (12.4 MB). Loaded Objects now: 2113.
-Memory consumption went from 134.3 MB to 121.9 MB.
-Total: 6.938292 ms (FindLiveObjects: 0.334875 ms CreateObjectMapping: 0.050834 ms MarkObjects: 4.792000 ms  DeleteObjects: 1.758916 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/MapMagic/Demo/Compatibility/MicroSplat/MicroSplatMaterial.mat
+  artifactKey: Guid(48f4e9eb6aea18b48a1ca843443c0d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MapMagic/Demo/Compatibility/MicroSplat/MicroSplatMaterial.mat using Guid(48f4e9eb6aea18b48a1ca843443c0d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3071984486b54f687209e5470f38f0fd') in 0.992764 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
